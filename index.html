@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seinfeld Joke Machine</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="heading">
+    <h1>Seinfeld Joke Machine</h1>
+  </div>
+
+  <div class="keys">
+    <div class="setup">
+      <p>Set-up</p>
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">What's the deal with...</span>
+      </div>
+    </div>
+    <div class="setup">
+      <p>Responses</p>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Tough Crowd</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Laughter</span>
+      </div>
+    </div>
+    <div class="setup">
+      <p>Punchlines</p>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">politics</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">shrinkage</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">soup</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">ovaltine</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">enthusiasm</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">eroticism</span>
+      </div>
+    </div>
+  </div>
+
+  <audio data-key="65" src="sounds/question.m4a"></audio>
+  <audio data-key="83" src="sounds/tough.m4a"></audio>
+  <audio data-key="68" src="sounds/laughter.mp3"></audio>
+  <audio data-key="70" src="sounds/politics.m4a"></audio>
+  <audio data-key="71" src="sounds/shrinkage.m4a"></audio>
+  <audio data-key="72" src="sounds/soup.m4a"></audio>
+  <audio data-key="74" src="sounds/ovaltine.mp3"></audio>
+  <audio data-key="75" src="sounds/enthusiasm.mp3"></audio>
+  <audio data-key="76" src="sounds/eroticism.mp3"></audio>
+
+  <script src="seinfeldjokemachine.js"></script>
+
+
+</body>
+</html>
